@@ -1,0 +1,170 @@
+/* styles.css */
+a {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+	margin: 0;
+}
+button {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #e8f3d6;
+	overflow: hidden;
+}
+main {
+	display: flex;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #a0c25a;
+	padding: 10px 20px;
+	color: white;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	h1 {
+		font-size: 60px;
+	}
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	gap: 50px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.user-info {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	button {
+		background: none;
+		border: 0;
+	}
+}
+
+.sidebar {
+	width: 20%;
+	background-color: #d7e9c4;
+	padding: 15px;
+	margin-top: 15px;
+	margin-left: 15px;
+	max-height: max-content;
+	border-radius: 8px;
+	border: 1px solid #606060;
+}
+
+.sidebar input {
+	width: 90%;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+.categories ul {
+	list-style: none;
+	padding: 0;
+	gap: 10px;
+}
+
+.content {
+	padding: 20px;
+	flex-grow: 1;
+}
+
+.breadcrumb {
+	margin-bottom: 10px;
+}
+
+.toolbar {
+	gap: 10px;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 5px;
+	background-color: #b8b8b8;
+	border-radius: 8px;
+	padding: 5px 10px;
+	align-items: center;
+}
+.toolbar p {
+	display: flex;
+	color: #000000;
+	font-size: 20px;
+	line-height: 1em;
+	margin: 0;
+}
+.toolbar button {
+	padding: 5px;
+	/* width: 30px;
+	height: 30px; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #333;
+	border-radius: 8px;
+}
+
+.journal-table {
+	overflow-x: scroll;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th,
+td {
+	border: 1px solid #ccc;
+	padding: 8px;
+	text-align: center;
+}
+
+th {
+	background-color: #b2c96c;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: #f5f5f5;
+}
+
+.footer {
+	display: flex;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #a0c25a;
+	padding: 10px;
+	justify-content: center;
+	ul {
+		list-style: none;
+		gap: 200px;
+		display: flex;
+		margin: 0;
+		padding: 10px 10px;
+		a {
+			font-size: 20px;
+			font-weight: 600;
+			color: #fff;
+		}
+	}
+}
